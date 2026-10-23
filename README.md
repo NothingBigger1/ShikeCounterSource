@@ -4,6 +4,12 @@ Android 本地客流计数工具。奶油机械浅色主题、深色仪表主题
 
 当前版本：1.1.0。源码仓库：[NothingBigger1/ShikeCounterSource](https://github.com/NothingBigger1/ShikeCounterSource)。
 
+## 实机效果图
+
+以下为用户提供的小米14真实使用截图，版本为 **1.0.0（优化前）**。图中的系统默认开关、分离式底部按钮属于旧版样式；1.1.0 已优化为机械拨钮和一体式导航座，新版实机截图待补充。
+
+<img src="docs/screenshots/xiaomi14-v1.0.0-light.jpg" alt="小米14实机截图：拾客1.0.0浅色主题、优化前计数页面" width="360" />
+
 ### 1.1.0 界面更新
 
 - 独立绘制的机械拨钮：凹槽轨道、金属边缘、带阴影的实体拨头，不再依赖厂商系统 Switch 外观。
