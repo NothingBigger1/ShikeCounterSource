@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:label="拾客" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:fullBackupContent="false" android:dataExtractionRules="@xml/data_extraction_rules" tools:targetApi="31" android:icon="@drawable/ic_launcher" android:supportsRtl="true">
+        <activity android:name=".MainActivity" android:exported="true" android:configChanges="uiMode|orientation|screenSize" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+        <provider android:name=".ExportProvider" android:authorities="cn.shike.counter.exports" android:exported="false" android:grantUriPermissions="true"/>
+    </application>
+</manifest>
